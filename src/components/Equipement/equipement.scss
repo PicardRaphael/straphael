@@ -1,0 +1,14 @@
+.title {
+  text-align: center;
+  &-list {
+    text-align: center;
+    font-weight: 700;
+  }
+  &-group {
+    border-bottom: 1px solid grey !important;
+    margin-bottom: 1em !important;
+  }
+  &-off {
+    border-bottom: none !important;
+  }
+}

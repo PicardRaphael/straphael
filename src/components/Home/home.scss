@@ -1,0 +1,32 @@
+.card-body {
+  display: flex !important;
+  flex-direction: column
+}
+.equipement {
+  align-self: center !important;
+}
+.list-equipement{
+  margin-top: 1em !important;
+}
+.card-title {
+  text-align: center !important;
+  font-weight: 700 !important; 
+}
+.list {
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  &-item {
+    border: none !important;
+  }
+}
+
+.contact {
+  color: red !important;
+  margin-top: 0.5em !important;
+}
+@media (min-width: 768px) { 
+  .equipement {
+    width: 10% !important;
+  }
+}

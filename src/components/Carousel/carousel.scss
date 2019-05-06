@@ -1,0 +1,14 @@
+.rcs_sliderBox {
+  width: 100% !important;
+}
+
+.rcs_dotsSet {
+  position: relative !important;
+  top: -50px !important
+}
+
+@media (max-width: 575.98px) { 
+  .rcs_dotsSet {
+    display: none !important;
+  } 
+}
