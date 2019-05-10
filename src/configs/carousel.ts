@@ -1,82 +1,90 @@
 //@ts-ignore
-import p1 from 'src/images/p1.png'
+import p0 from 'src/images/0.png'
 //@ts-ignore
-import p2 from 'src/images/p2.png'
+import p1 from 'src/images/1.png'
 //@ts-ignore
-import p3 from 'src/images/p3.jpg'
+import p2 from 'src/images/2.jpg'
 //@ts-ignore
-import p4 from 'src/images/p4.jpg'
+import p3 from 'src/images/3.jpg'
 //@ts-ignore
-import p5 from 'src/images/p5.jpg'
+import p4 from 'src/images/4.jpg'
 //@ts-ignore
-import p6 from 'src/images/p6.jpg'
+import p5 from 'src/images/5.jpg'
 //@ts-ignore
-import p7 from 'src/images/p7.jpg'
+import p6 from 'src/images/6.jpg'
 //@ts-ignore
-import p8 from 'src/images/p8.jpg'
+import p7 from 'src/images/7.jpg'
 //@ts-ignore
-import p9 from 'src/images/p9.jpg'
+import p8 from 'src/images/8.jpg'
 //@ts-ignore
-import p10 from 'src/images/p10.jpg'
+import p9 from 'src/images/9.jpg'
 //@ts-ignore
-import p11 from 'src/images/p11.jpg'
+import p10 from 'src/images/10.jpg'
 //@ts-ignore
-import p12 from 'src/images/p12.jpg'
+import p11 from 'src/images/11.jpg'
 //@ts-ignore
-import p13 from 'src/images/p13.jpg'
+import p12 from 'src/images/12.jpg'
 //@ts-ignore
-import p14 from 'src/images/p14.jpg'
+import p13 from 'src/images/13.jpg'
 //@ts-ignore
-import p15 from 'src/images/p15.jpg'
+import p14 from 'src/images/14.jpg'
 //@ts-ignore
-import p16 from 'src/images/p16.jpg'
+import p15 from 'src/images/15.jpg'
 //@ts-ignore
-import p17 from 'src/images/p17.jpg'
+import p16 from 'src/images/16.jpg'
 //@ts-ignore
-import p18 from 'src/images/p18.jpg'
+import p17 from 'src/images/17.jpg'
 //@ts-ignore
-import p19 from 'src/images/p19.jpg'
+import p18 from 'src/images/18.jpg'
 //@ts-ignore
-import p20 from 'src/images/p20.jpg'
+import p19 from 'src/images/19.jpg'
 //@ts-ignore
-import p21 from 'src/images/p21.jpg'
+import p20 from 'src/images/20.jpg'
 //@ts-ignore
-import p22 from 'src/images/p22.jpg'
+import p21 from 'src/images/21.jpg'
 //@ts-ignore
-import p23 from 'src/images/p23.jpg'
+import p22 from 'src/images/22.jpg'
 //@ts-ignore
-import p24 from 'src/images/p24.jpg'
+import p23 from 'src/images/23.jpg'
 //@ts-ignore
-import p25 from 'src/images/p25.jpg'
+import p24 from 'src/images/24.jpg'
 //@ts-ignore
-import p26 from 'src/images/p26.jpg'
+import p25 from 'src/images/25.jpg'
 //@ts-ignore
-import p27 from 'src/images/p27.jpg'
+import p26 from 'src/images/26.jpg'
 //@ts-ignore
-import p28 from 'src/images/p28.jpg'
+import p27 from 'src/images/27.jpg'
 //@ts-ignore
-import p29 from 'src/images/p29.jpg'
+import p28 from 'src/images/28.jpg'
 //@ts-ignore
-import p30 from 'src/images/p30.jpg'
+import p29 from 'src/images/29.jpg'
 //@ts-ignore
-import p31 from 'src/images/p31.jpg'
+import p30 from 'src/images/30.jpg'
 //@ts-ignore
-import p32 from 'src/images/p32.jpg'
+import p31 from 'src/images/31.jpg'
 //@ts-ignore
-import p33 from 'src/images/p33.jpg'
+import p32 from 'src/images/32.jpg'
 //@ts-ignore
-import p34 from 'src/images/p34.jpg'
+import p33 from 'src/images/33.jpg'
 //@ts-ignore
-import p35 from 'src/images/p35.jpg'
+import p34 from 'src/images/34.jpg'
 //@ts-ignore
-import p36 from 'src/images/p36.jpg'
+import p35 from 'src/images/35.jpg'
 //@ts-ignore
-import p37 from 'src/images/p37.jpg'
+import p36 from 'src/images/36.jpg'
 //@ts-ignore
-import p38 from 'src/images/p38.jpg'
+import p37 from 'src/images/37.jpg'
+//@ts-ignore
+import p38 from 'src/images/38.jpg'
+//@ts-ignore
+import p39 from 'src/images/39.jpg'
 
 export const data =  
 [
+  {
+    des: "0",
+    imgSrc: p0
+  },
   {
     des: "1",
     imgSrc: p1
@@ -260,8 +268,18 @@ export const data =
     des: "38",
     imgSrc: p38
   }
+  ,
+  {
+    des: "39",
+    imgSrc: p39
+  }
 ]
 export const images = [
+  {
+    src: p0, 
+    width: 4, 
+    height: 3
+  },
   {
     src: p1, 
     width: 4, 
@@ -485,6 +503,12 @@ export const images = [
   ,
   {
     src: p38, 
+    width: 4, 
+    height: 4
+  }
+  ,
+  {
+    src: p39, 
     width: 4, 
     height: 4
   }
