@@ -4,7 +4,7 @@ import {GoogleMap, withGoogleMap, withScriptjs, Marker} from 'react-google-maps'
 import './map.scss'
 
 export const Map = () => {
-  const googleMapURL = 'https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyATuVgDE4cR5C_7ekXPm-dUx2Z43IukoE8'
+  const googleMapURL = 'test
   const someLatLng = {lat: 43.426004, lng: 6.764274}
 
   const MyGoogleMap = withScriptjs(withGoogleMap(() =>
