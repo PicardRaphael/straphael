@@ -59,7 +59,7 @@
     "@types/react-router-dom": "^4.3.2",
     "easy-peasy": "^2.1.6",
     "google-map-react": "^1.1.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "mdbreact": "^4.13.0",
     "react": "^16.8.2",
     "react-carousel-slider": "^2.0.13",
